@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* Cor de fundo da página */
+html {
+    background-color: lightgray;
+}
+
+/* Cor de fundo do corpo da página */
+body {
+    width: 1350px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    background-color: whitesmoke;
+    font-size-adjust: 100%;
+}
+
+
+/* Definindo uma cor de fundo 
+para o menu de navegação */
+.menu ul {
+    margin-top: -5px;
+    background-color: #525266;
+    padding: 10px;
+}
+
+/* Alinhando e definindo uma cor de fundo 
+para os itens do menu de navegação */
+.menu ul li {
+
+    background-color: #525266;
+    display: inline;
+    padding: 10px 80px;
+}
+
+
+/* Definindo fonte, tamanho, cor, letras maiuscula 
+e removendo decoração dos links do menu de navegação*/
+.menu ul li a {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Mudança ao passar o mouse sobre o menu de navegação*/
+.menu ul li a:hover {
+    color: #525266;
+    background-color: whitesmoke;
+}
+
+.conteudo {
+    width: 1050px;
+    float: right;
+}
+
+/* Formatação do Título do texto prncipal */
+.conteudo > .titulo {
+    text-align: center;
+    color: cadetblue;
+    font-size: 2em;
+}
+
+
+
+/* Aqui fica a formatação e posição do texto principal */
+.conteudo > .texto {
+    margin: 0px;
+    padding: 0px 50px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 1.3em;
+    color: dimgray;
+}
+
+/* Aqui fica a formatação e posião do link "Inicio" */
+.link {
+    margin-left: 675px;
+    font-family: serif;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+
+}
+
+.progresso {
+    border: 1px solid black;
+    width: 250px;
+    float: left;
+
+
+}
+
+.progresso p {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: white;
+    background-color: #525266;
+}
+
+/* Alinhando os itens do menu de interaçao */
+.interacao ul li {
+    display: inline;
+}
+
+/* Definindo fonte, tamanho, cor e removendo 
+decoração dos links do menu de interaçao */
+.interacao ul li a {
+    text-decoration: none;
+    font-family: serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0px 0px 0px 270px;
+    color: black;
+}
+
+
+/* Tamanho do rodapé e cor de fundo */
+.rodape {
+    background-color: #525266;
+    width: 1350px;
+    height: 110px;
+    margin-top: 50px;
+    clear: both;
+}
+
+/* Formatação  e posição do texto do rodapé */
+.rodape p {
+    padding-top: 5px;
+    text-align: center;
+    font-family: serif;
+    color: white;
+}
