@@ -49,8 +49,30 @@ e removendo decoração dos links do menu de navegação*/
     background-color: whitesmoke;
 }
 
-.conteudo {
+.introducao {
     width: 1050px;
+    margin: 0px 150px 0px 150px;
+}
+
+/* Formatação do Título da introdução */
+.introducao > .titulo {
+    text-align: center;
+    color: cadetblue;
+    font-size: 2em;
+}
+
+/* Aqui fica a formatação e posição da introdução */
+.introducao > .texto {
+    margin: 0px;
+    padding: 0px 50px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 1.3em;
+    color: dimgray;
+}
+
+.conteudo {
+    width: 1075px;
     float: right;
 }
 
@@ -62,31 +84,37 @@ e removendo decoração dos links do menu de navegação*/
 }
 
 
-
 /* Aqui fica a formatação e posição do texto principal */
 .conteudo > .texto {
     margin: 0px;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 100px 0px 100px;
     text-align: justify;
     font-family: serif;
     font-size: 1.3em;
     color: dimgray;
 }
 
+.inicio {
+    margin: 0px 475px 0px 500px;
+    text-align: center;
+}
+
 /* Aqui fica a formatação e posião do link "Inicio" */
-.link {
-    margin-left: 675px;
+.inicio a {
+
     font-family: serif;
     font-size: 2em;
     color: black;
     text-decoration: none;
-
 }
 
 .progresso {
-    border: 1px solid black;
-    width: 250px;
+    margin-top: 26px;
+    border: 1px solid #525266;
+    width: 273px;
+    height: auto;
     float: left;
+    background-color: #e8e8e8;
 
 
 }
@@ -98,6 +126,19 @@ e removendo decoração dos links do menu de navegação*/
     font-size: 1.3em;
     color: white;
     background-color: #525266;
+}
+
+
+.progresso a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.progresso li {
+    list-style-type: disc;
+    font-family: fantasy;
+    font-size: 1.1em;
+
 }
 
 /* Alinhando os itens do menu de interaçao */
