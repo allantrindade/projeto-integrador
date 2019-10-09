@@ -15,18 +15,15 @@ body {
 }
 
 
-/* Definindo uma cor de fundo 
-para o menu de navegação */
+/* Cor de fundo do menu de navegação */
 .menu ul {
     margin-top: -5px;
     background-color: #525266;
     padding: 10px;
 }
 
-/* Alinhando e definindo uma cor de fundo 
-para os itens do menu de navegação */
+/* Cor de fundo e posição dos itens do menu de navegação */
 .menu ul li {
-
     background-color: #525266;
     display: inline;
     padding: 10px 80px;
@@ -49,6 +46,7 @@ e removendo decoração dos links do menu de navegação*/
     background-color: whitesmoke;
 }
 
+/* Tamanho do Box da Introdução */
 .introducao {
     width: 1050px;
     margin: 0px 150px 0px 150px;
@@ -61,7 +59,7 @@ e removendo decoração dos links do menu de navegação*/
     font-size: 2em;
 }
 
-/* Aqui fica a formatação e posição da introdução */
+/* Formatação e posição da introdução */
 .introducao > .texto {
     margin: 0px;
     padding: 0px 50px 0px 50px;
@@ -71,6 +69,7 @@ e removendo decoração dos links do menu de navegação*/
     color: dimgray;
 }
 
+/* Tamanho do Box do texto principal */
 .conteudo {
     width: 1075px;
     float: right;
@@ -84,7 +83,7 @@ e removendo decoração dos links do menu de navegação*/
 }
 
 
-/* Aqui fica a formatação e posição do texto principal */
+/* Formatação e posição do texto principal */
 .conteudo > .texto {
     margin: 0px;
     padding: 0px 100px 0px 100px;
@@ -94,20 +93,22 @@ e removendo decoração dos links do menu de navegação*/
     color: dimgray;
 }
 
+/* Posição do Link "Inicio" */
 .inicio {
-    margin: 0px 475px 0px 500px;
+    margin: 30px 475px -20px 500px;
     text-align: center;
 }
 
-/* Aqui fica a formatação e posião do link "Inicio" */
+/* Formatação do link "Inicio" */
 .inicio a {
-
-    font-family: serif;
-    font-size: 2em;
+    font-family: cursive;
+    font-size: 1.5em;
     color: black;
     text-decoration: none;
 }
 
+
+/* Posição do Menu de progrresso */
 .progresso {
     margin-top: 26px;
     border: 1px solid #525266;
@@ -115,10 +116,9 @@ e removendo decoração dos links do menu de navegação*/
     height: auto;
     float: left;
     background-color: #e8e8e8;
-
-
 }
 
+/* Posição e formatação do titulo do menu de progresso */
 .progresso p {
     margin: 0;
     text-align: center;
@@ -128,31 +128,32 @@ e removendo decoração dos links do menu de navegação*/
     background-color: #525266;
 }
 
-
-.progresso a {
+/* Posição e formatação dos links do menu de progresso */
+.progresso li a {
     text-decoration: none;
     color: cadetblue;
-}
-
-.progresso li {
-    list-style-type: disc;
     font-family: fantasy;
     font-size: 1.1em;
-
 }
+
+/* Formatação dos itens da lista do menu de progresso */
+.progresso li {
+    list-style-type: disc;
+}
+
 
 /* Alinhando os itens do menu de interaçao */
 .interacao ul li {
-    display: inline;
+    display: run-in;
+    margin-left: 80px;
 }
 
 /* Definindo fonte, tamanho, cor e removendo 
 decoração dos links do menu de interaçao */
 .interacao ul li a {
     text-decoration: none;
-    font-family: serif;
-    font-size: 2em;
-    text-align: center;
+    font-family: cursive;
+    font-size: 1.7em;
     margin: 0px 0px 0px 270px;
     color: black;
 }
